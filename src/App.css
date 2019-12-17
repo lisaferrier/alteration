@@ -1,5 +1,6 @@
 .App {
   /* text-align: center; */
-  background-color: black;
-  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://media1.giphy.com/media/8pgNfZ8OGwuDS/giphy.gif");
+  height: 105vh;
 }
