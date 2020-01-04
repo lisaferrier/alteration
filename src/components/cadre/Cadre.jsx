@@ -75,7 +75,6 @@ class Cadre extends Component {
                                   Feddog, 2014
                                 </Header>
                                 <p>La Seyne-sur-Mer</p>
-                                <p>Is it okay to use this photo?</p>
                               </Modal.Description>
                             </Modal.Content>
                           </Grid.Column>
