@@ -1,16 +1,45 @@
-.ui.inverted.yellow.button,
-.ui.inverted.yellow.buttons .button {
-  -webkit-animation: flicker-in-1 4s linear both;
-  animation: flicker-in-1 4s linear both;
+.ui.yellow.button,
+.ui.yellow.buttons .button {
+  font-size: large;
+  background-color: transparent !important;
+  /* -webkit-animation: flicker-in-1 4s linear both;
+  animation: flicker-in-1 4s linear both; */
   position: absolute;
   top: 80vh;
-  right: 50%;
+  outline: none !important;
+  border: none !important;
+  margin-left: 50%;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  font-family: "Courier New", Courier, monospace !important;
+  cursor: help;
+}
+
+.close.icon {
+  color: gold !important;
+}
+
+.description,
+.ui.header,
+.image.content {
+  font-family: "Courier New", Courier, monospace !important;
+  color: gold;
+  text-align: center;
+}
+
+.ui.basic.scrolling.modal.transition.visible.active {
+  top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
 }
 
 .cadre {
   margin-top: 10vh;
 }
-
+/* 
 .flicker-in-1 {
   width: 505px;
   height: 400px;
@@ -44,6 +73,8 @@
  * animation flicker-1
  * ----------------------------------------
  */
+
+/*  
 @-webkit-keyframes flicker-1 {
   0%,
   100% {
@@ -103,4 +134,4 @@
   49.01% {
     opacity: 1;
   }
-}
+} */
